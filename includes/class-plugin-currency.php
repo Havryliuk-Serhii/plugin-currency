@@ -196,12 +196,7 @@ class Plugin_Currency {
 			
 		$this->loader->add_action( 'init', $plugin_public, 'plugin_currency_table' );
 
-		/*$this->loader->add_action('init',$plugin_public,'plugin_currency_log_table');
-		$this->loader->add_action('switch_blog',$plugin_public,'plugin_currency_log_table');
-*/
 		$this->loader->add_action('widgets_init',$plugin_public,'plugin_currency_load_widget');
-
-		//$this->loader->add_action( 'init', $plugin_public, 'plugin_currency_create_meta_table' );
 
 	}
 
