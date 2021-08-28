@@ -107,7 +107,7 @@ class Plugin_Currency_Public {
 	 *  Function for loading the currency widget
 	 * @return mixed
 	 */
-	function plugin_currency_load_widget() {
+	function plugin_currency_load_widget() {		
 	    register_widget( 'Plugin_Currency_Widget' );
 	}
  	
